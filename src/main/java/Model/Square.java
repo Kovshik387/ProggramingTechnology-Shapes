@@ -4,11 +4,14 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
 public class Square extends Shape{
-
-    private double side;
+    private final double side;
 
     public Square(int x, int y, Color color, double side){
         super(x,y,color); this.side = side;
+    }
+
+    public Square(){
+        super(20,20,Color.AQUA); this.side = 20.0;
     }
 
     @Override
