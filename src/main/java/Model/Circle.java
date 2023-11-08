@@ -21,6 +21,6 @@ public class Circle extends Shape  {
 
     @Override
     public String toString(){
-        return "Круг с координатами x: " + super.getX() + " y: " + super.getY() + " Цвет: " + super.getColor().toString();
+        return "Круг " + super.getX() + " " + super.getY() + " " + super.getColor().toString();
     }
 }

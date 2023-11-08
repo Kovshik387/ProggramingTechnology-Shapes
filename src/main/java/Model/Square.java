@@ -22,6 +22,6 @@ public class Square extends Shape{
 
     @Override
     public String toString(){
-        return "Квадрат с координатами x: " + super.getX() + " y: " + super.getY() + " Цвет: " + super.getColor().toString();
+        return "Квадрат " + super.getX() + " " + super.getY() + " " + super.getColor().toString();
     }
 }
