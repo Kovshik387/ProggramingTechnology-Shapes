@@ -1,9 +1,7 @@
-package Model;
+package model;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
-
-import java.util.Random;
 
 public class Triangle extends Shape {
 

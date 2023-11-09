@@ -1,7 +1,7 @@
 package com.example.proggramingtechnologyshapes;
 
-import Factory.ShapeFactory;
-import Model.Shape;
+import factory.ShapeFactory;
+import model.Shape;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;

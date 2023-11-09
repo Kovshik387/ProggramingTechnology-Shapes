@@ -1,9 +1,9 @@
-package Factory;
+package factory;
 
-import Model.Circle;
-import Model.Triangle;
-import Model.Shape;
-import Model.Square;
+import model.Circle;
+import model.Triangle;
+import model.Shape;
+import model.Square;
 
 public class ShapeFactory implements IFactory{
     @Override

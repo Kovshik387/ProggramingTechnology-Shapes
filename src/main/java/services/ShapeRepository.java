@@ -1,6 +1,6 @@
 package services;
 
-import Model.Shape;
+import model.Shape;
 import services.infrastructure.IRepository;
 
 import java.util.ArrayDeque;

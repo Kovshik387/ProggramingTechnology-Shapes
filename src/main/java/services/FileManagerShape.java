@@ -1,7 +1,7 @@
 package services;
 
-import Factory.ShapeFactory;
-import Model.Shape;
+import factory.ShapeFactory;
+import model.Shape;
 import javafx.scene.paint.Color;
 import services.infrastructure.IFileManager;
 
