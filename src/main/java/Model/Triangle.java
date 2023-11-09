@@ -5,12 +5,12 @@ import javafx.scene.paint.Color;
 
 import java.util.Random;
 
-public class Rectangle extends Shape {
+public class Triangle extends Shape {
 
     private final double length;
     private final double angle;
     //Треугольник
-    public Rectangle(){
+    public Triangle(){
         super(20,20, Color.ALICEBLUE);
         angle = new Random().nextDouble(0,1);
         length = 10;
